@@ -1,0 +1,41 @@
+#external {
+	color: yellow;
+}
+
+* {
+	font-family: "Verdana";
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+#selected {
+	text-transform: uppercase;
+}
+
+ol.green li {
+	background-color: #aed19d;
+}
+
+ol[type] li {
+	border: solid;
+	border-color: rgb(157, 176, 209);
+}
+
+img + ul {
+	list-style-type: square;
+}
+
+section img {
+	height: 200px;
+	width: 200px;
+}
+
+ul > li {
+	letter-spacing: 5px;
+}
+
+ul ~ p {
+	text-align: center;
+}
